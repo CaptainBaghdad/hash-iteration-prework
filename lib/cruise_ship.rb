@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  na = passengers.select{|k,v|  k == :suite_a}
+  na = passengers.select{|k,v|  k == :suite_a && v.start_with?("A")}
   na.to_a.join
 end
