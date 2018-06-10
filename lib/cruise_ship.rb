@@ -8,4 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  na = passengers.select{|k,v| }
 end
