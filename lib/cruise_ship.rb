@@ -10,5 +10,5 @@ def select_winner(passengers)
   # add the code snippet here!
   winner = ""
   na = passengers.select{|k,v|  k == :suite_a && v.start_with?("A") ? winner  = v : next}
-  na
+  winner
 end
